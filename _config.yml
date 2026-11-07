@@ -4,6 +4,7 @@
 title: Flight Board
 description: Live aircraft overhead, on a tiny ESP32 board and in your browser.
 baseurl: /flightboard
+permalink: pretty          # pages at /install/ not /install.html (boards link to /update/)
 url: https://patrickvibes.github.io
 
 remote_theme: just-the-docs/just-the-docs@v0.12.0
