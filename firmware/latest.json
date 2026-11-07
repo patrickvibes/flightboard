@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "date": "2026-11-07",
   "chip": "esp32",
-  "notes": "First versioned release.\n\u2022 Overhead moment on the board: a chime, a screen flash and an OVERHEAD NOW screen when a plane passes within 3 km, with a live countdown.\n\u2022 Soft tick while a plane is overhead (can be turned off in Settings).\n\u2022 The board now tells you when a new version is out (Settings \u2192 Firmware).\n\u2022 Install and update from your browser, no Arduino IDE needed."
+  "notes": "New look for the board's screen.\n\u2022 New screens on the board: a cleaner flight view with airline and route codes, a radar \"quiet sky\" when nothing's around, close-approach and emergency alert screens, and a \"no data\" screen that says why and when it'll retry.\n\u2022 Hold the button for 1 s to get a QR code that opens the dashboard."
 }
