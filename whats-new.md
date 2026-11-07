@@ -8,7 +8,9 @@ permalink: /changelog/
 
 What's new in each Flight Board firmware release. Newest first.
 
-## [Unreleased]
+## [1.1.0] - 2026-11-07
+New look for the board's screen.
+
 - New screens on the board: a cleaner flight view with airline and route
   codes, a radar "quiet sky" when nothing's around, close-approach and
   emergency alert screens, and a "no data" screen that says why and when
