@@ -1,0 +1,28 @@
+{
+  "name": "Flight Board",
+  "version": "1.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "1.0.0/bootloader.bin",
+          "offset": 4096
+        },
+        {
+          "path": "1.0.0/partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "1.0.0/boot_app0.bin",
+          "offset": 57344
+        },
+        {
+          "path": "1.0.0/app.bin",
+          "offset": 65536
+        }
+      ]
+    }
+  ]
+}
