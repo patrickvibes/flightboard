@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "date": "2026-11-07",
   "chip": "esp32",
-  "notes": "New look for the board's screen.\n\u2022 New screens on the board: a cleaner flight view with airline and route codes, a radar \"quiet sky\" when nothing's around, close-approach and emergency alert screens, and a \"no data\" screen that says why and when it'll retry.\n\u2022 Hold the button for 1 s to get a QR code that opens the dashboard."
+  "notes": "Your OpenSky credits now last all day.\n\u2022 Credits now last all day: the board paces its updates so OpenSky's daily allowance runs until the midnight (UTC) reset instead of running out in the afternoon. Without an account it updates every few minutes, all day. Can be turned off in Settings."
 }
