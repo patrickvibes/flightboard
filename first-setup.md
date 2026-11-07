@@ -9,13 +9,13 @@ nav_order: 4
 The first time it starts (or whenever it can't find a known network), the
 board creates its own Wi-Fi hotspot.
 
-1. The screen shows **Wi-Fi setup needed — Join hotspot: FlightBoard-setup**.
+1. The screen shows **WI-FI SETUP — JOIN THIS HOTSPOT: FLIGHTBOARD-SETUP**.
 2. On your phone, join the Wi-Fi network **FlightBoard-setup**.
 3. A setup page opens automatically. (If not, open a browser and go to
    `192.168.4.1`.)
 4. Tap **Configure WiFi**, pick your home network and enter its password.
-5. The board saves it, connects, and shows **Open in browser:** followed by
-   its address, e.g. `192.168.1.42`.
+5. The board saves it, connects, and shows its **address** (e.g.
+   `192.168.1.42`) with a **QR code** for 10 seconds.
 
 The hotspot stays open for 3 minutes. If nobody sets it up, the board
 restarts and tries again.
@@ -23,11 +23,12 @@ restarts and tries again.
 > The board works on **2.4 GHz** Wi-Fi only.
 
 ## 2. Open the dashboard
-On any phone or computer on the same Wi-Fi, open a browser and go to the
+On a phone, just **scan the QR code** on the board's screen with the camera.
+Or, on any phone or computer on the same Wi-Fi, open a browser and go to the
 address shown, e.g. `http://192.168.1.42`.
 
-Forgot the address? **Hold the button for about 1 second** and the screen
-shows it again.
+Forgot the address? **Hold the button for about 1 second** and let go — the
+address and QR code come back for 15 seconds.
 
 ## 3. Set your location
 The board starts out watching the sky over Shannon, Ireland.

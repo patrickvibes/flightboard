@@ -9,24 +9,27 @@ nav_order: 5
 The OLED shows one aircraft at a time:
 
 ```
-3/12* ~4m Shannon        ← position in list, * = locked, minutes to closest approach, your area
-EIN123  Aer Lingus  DUB->JFK   ← big line, scrolls if too long
-14.2 km away
-11000 ft  780 kmh
+03/12              SHANNON   ← which flight of how many (* = locked) · your area
+──────────────────────────
+EIN105                       ← callsign
+AER LINGUS SNN>JFK           ← airline and route (or country, if unknown)
+18.2KM AWAY             ~4M  ← distance · minutes to its closest approach
+36000FT ▲            845KMH  ← altitude (▲ climbing, ▼ descending) · speed
+▬▬▬▬▬▬▬▬▬▬▬▬                 ← Ticker mode: time left before the next flight
 ```
 
-- **Top line:** which flight of how many, a `*` if it's locked, minutes until
-  its closest approach (if it's coming towards you), and your area name.
-- **Big line:** the callsign, plus the airline and route when known
-  (otherwise the country it's registered in). It scrolls when it doesn't fit.
-- **Bottom lines:** distance from you, altitude and speed.
+A small **↑** in the top-right corner means a firmware update is available
+(see [Update your board](update.md)).
 
-With no aircraft in range it shows **No flights … watching…**.
+With no aircraft in range you'll see **Quiet sky**: a radar sweep that turns
+once per update, your area, the scan size and when the next scan is due.
 
 Flights are ordered nearest first. Two display modes (set in
 [Settings](settings.md)):
 - **Step** — stays on a flight until you tap the button.
 - **Ticker** — moves to the next flight automatically every few seconds.
+  The callsign row scrolls with the airline and route, and a bar along the
+  bottom shows the time left before the next flight.
 
 If you **lock** a flight from the web dashboard, the screen stays on it
 until you unlock it.
@@ -37,7 +40,8 @@ height), the board marks the moment:
 
 - a rising **four-note chime** and four LED blinks,
 - the screen **flashes** for a few seconds, then shows **OVERHEAD NOW** with
-  the callsign, airline, live distance, altitude, speed and heading,
+  the callsign, live distance and altitude, and a 10-block meter that fills
+  as the plane gets closer (full inside 1.2 km),
 - the screen is **brightest when the plane is closest** and dims as it moves
   away toward the edge of the zone,
 - a **soft tick** every 5 seconds while it's still overhead (can be turned
@@ -57,13 +61,35 @@ it doesn't chime again.
 ## The button (BOOT)
 | Action | What it does |
 |---|---|
-| **Tap** | Next flight (on the overhead screen: dismiss it) |
-| **Double-tap** | Show OpenSky usage for 5 seconds: anonymous/authenticated, credits left, requests this session, current interval (and **THROTTLED** if rate-limited) |
-| **Hold ~1 s** | Show the board's web address |
-| **Hold ~5 s**, then release | Forget Wi-Fi and reopen the setup hotspot |
+| **Tap** | Next flight. On any other screen (usage, address, alerts, overhead, no data): back to the flights. |
+| **Double-tap** | **API usage** for 5 seconds: credits left and roughly how long they'll last, requests so far, how often it updates. |
+| **Hold ~1 s**, then let go | **Address** for 15 seconds: the board's IP and a **QR code** — scan it with your phone camera to open the dashboard. |
+| **Keep holding** (past ~2 s) | **Reset Wi-Fi** countdown: a bar fills to 5 seconds. **Let go to cancel.** At 5 seconds it forgets Wi-Fi and opens the setup hotspot — you don't need to let go. |
 
-When you've held long enough for a Wi-Fi reset, the screen says
-**Release to reset Wi-Fi**. Let go before then to cancel.
+Screens that time out (usage, address, alerts) show a thin bar along the
+bottom that shrinks until they close.
+
+## Alert screens
+These take over the screen for a few seconds, then it goes back to the
+flights (tap to go back sooner):
+
+- **Close approach** — a flight will pass within your alert distance (set in
+  [Settings](settings.md)). Shows how close it will pass, where it is now and
+  a track marker moving toward its closest point. With three LED blinks and
+  a beep.
+- **Emergency squawk** — an aircraft in range is squawking 7500, 7600 or
+  7700. The whole screen turns white with the code, what it means, where the
+  aircraft is (distance and direction) and whether it's climbing or
+  descending. The LED strobes.
+- **Update available** — once per new version: open the dashboard for how
+  to update.
+
+## When there's no data
+If OpenSky stops answering — rate limited, an error, or Wi-Fi drops — the
+screen says so: **THROTTLED**, **API ERROR** or **OFFLINE**, why, how often
+it's retrying and when the next try is. The flights from the last good
+update are kept; tap to look at them. It goes back to normal by itself on
+the next good update.
 
 ## The blue LED
 | Pattern | Meaning |

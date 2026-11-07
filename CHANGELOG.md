@@ -7,6 +7,13 @@ What's new in each Flight Board firmware release. Newest first.
      boards' dashboards, so keep the opening lines short and user-facing. -->
 
 ## [Unreleased]
+- New screens on the board: a cleaner flight view with airline and route
+  codes, a radar "quiet sky" when nothing's around, close-approach and
+  emergency alert screens, and a "no data" screen that says why and when
+  it'll retry.
+- Hold the button for 1 s to get a QR code that opens the dashboard.
+- Wi-Fi reset now shows a countdown bar: let go to cancel; it fires at 5 s.
+- Overhead screen redesigned with a closeness meter.
 
 ## [1.0.0] - 2026-11-07
 First versioned release.

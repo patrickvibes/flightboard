@@ -28,15 +28,16 @@ library.
 
 ## Wi-Fi
 **The setup hotspot doesn't appear.**
-Hold the button ~5 s and release to clear saved Wi-Fi. The screen will say
-**Join hotspot: FlightBoard-setup**.
+Keep holding the button for 5 s (a bar fills; let go early to cancel) to
+clear saved Wi-Fi. The screen will say
+**WI-FI SETUP — JOIN THIS HOTSPOT: FLIGHTBOARD-SETUP**.
 
 **It won't join my network.**
 The ESP32 only supports **2.4 GHz** Wi-Fi. If your router combines 2.4 and
 5 GHz under one name, try enabling a separate 2.4 GHz network.
 
 **I set a static IP and now I can't reach it.**
-Hold the button ~5 s to reset Wi-Fi, then set it up again and clear the
+Keep holding the button for 5 s to reset Wi-Fi, then set it up again and clear the
 static IP fields.
 
 ## Data
@@ -56,7 +57,7 @@ Not every flight is in the public route and aircraft databases.
 ## Dashboard
 **The page won't load.**
 Make sure your phone/laptop is on the same Wi-Fi as the board. Hold the
-button ~1 s to check the address.
+button ~1 s and let go to see the address and a QR code.
 
 **No sound.**
 Tap anywhere on the page first — browsers block sound until you interact —

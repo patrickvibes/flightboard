@@ -47,7 +47,7 @@ board restarts.
 | Subnet | 255.255.255.0 if blank | |
 | DNS | Gateway if blank | e.g. `1.1.1.1`. |
 
-If a wrong static IP locks you out, **hold the button ~5 s** to reset Wi-Fi.
+If a wrong static IP locks you out, **keep holding the button for 5 s** to reset Wi-Fi.
 
 ## Firmware
 | Setting | Default | Notes |
@@ -76,6 +76,6 @@ last at your current poll interval.
 These are per browser — your phone and laptop remember their own.
 
 ## Resetting
-- **Wi-Fi only:** hold the button ~5 s, release.
+- **Wi-Fi only:** keep holding the button until the bar fills (5 s).
 - **Everything else:** re-enter settings, or re-install the firmware with
   "Erase all flash" enabled in the Arduino IDE.
