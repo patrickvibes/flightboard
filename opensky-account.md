@@ -14,19 +14,28 @@ OpenSky limits how many requests each user can make per day, counted in
 | Anonymous (no account) | ~400 |
 | Free OpenSky account | ~4,000 |
 
-## How long will my credits last?
-| Poll every | Requests per day | Anonymous (~400) | Account (~4,000) |
-|---|---|---|---|
-| 30 s | 2,880 | ~3 h | ~33 h ✅ |
-| 60 s *(default)* | 1,440 | ~7 h | ✅ all day |
-| 120 s | 720 | ~13 h | ✅ all day |
-| 240 s* | 360 | ✅ all day | ✅ all day |
+## How long will my credits last? (pacing)
+Credits reset every day at **00:00 UTC** (midnight in Ireland in winter, 1 am in summer). With
+**pacing** on (the default), the board does the maths for you: after each
+update it divides the credits it has left by the time until the reset, and
+slows down just enough that they last — so it **never runs dry mid-day**.
+It never goes faster than your **Poll every** setting.
 
-\*The Settings page currently allows up to 120 s.
+| Access | Credits per day | What pacing does at the default 60 s |
+|---|---|---|
+| Anonymous | ~400 | Settles at about **every 3–4 minutes**, all day |
+| Free account | ~4,000 | Usually no change — 60 s fits comfortably |
 
-**In short: get a free account** if you want the board running all day. When
-credits run out, the board backs off and waits until OpenSky allows requests
-again; the dashboard shows a rate-limit notice.
+When the board is pacing, the dashboard says **every 216s (paced)** and the
+board's usage screen (double-tap) says **PACED 216S** instead of
+**EVERY 60S**. Bigger scan areas (over 5° across) cost more credits per
+update, and pacing allows for that too.
+
+You can turn pacing off in **Settings → Display**. Without it, at 60 s an
+anonymous board uses its ~400 credits in about 7 hours, then waits for the
+reset.
+
+**In short: get a free account** if you want frequent updates all day.
 
 ## Adding your account
 1. Create a free account at [opensky-network.org](https://opensky-network.org).

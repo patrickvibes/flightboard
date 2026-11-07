@@ -8,6 +8,12 @@ permalink: /changelog/
 
 What's new in each Flight Board firmware release. Newest first.
 
+## [Unreleased]
+- Credits now last all day: the board paces its updates so OpenSky's daily
+  allowance runs until the midnight (UTC) reset instead of running out in
+  the afternoon. Without an account it updates every few minutes, all day.
+  Can be turned off in Settings.
+
 ## [1.1.0] - 2026-11-07
 New look for the board's screen.
 

@@ -22,8 +22,9 @@ refreshes within a few seconds of saving.
 |---|---|---|---|
 | OLED mode | Step | Step / Ticker | Step: button moves on. Ticker: moves on automatically. |
 | Units | Metric | Metric (km, m, km/h) · Imperial (mi, ft, mph) · Aviation (km, ft, kn) | Applies to the screen and dashboard. |
-| Poll every | 60 s | 10–120 s | How often the board asks OpenSky. See [usage limits](opensky-account.md#how-long-will-my-credits-last). |
+| Poll every | 60 s | 10–120 s | The fastest the board will ask OpenSky. Pacing may slow it to make credits last. |
 | Seconds per flight (Ticker) | 5 s | 2–30 s | Only used in Ticker mode. |
+| Pace polling so OpenSky credits last the whole day | On | on / off | Slows updates just enough that your daily credits last until the 00:00 UTC reset. Never faster than **Poll every**. See [pacing](opensky-account.md#how-long-will-my-credits-last-pacing). |
 
 ## Alerts & filters
 | Setting | Default | Range | Notes |

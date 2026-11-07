@@ -62,7 +62,7 @@ it doesn't chime again.
 | Action | What it does |
 |---|---|
 | **Tap** | Next flight. On any other screen (usage, address, alerts, overhead, no data): back to the flights. |
-| **Double-tap** | **API usage** for 5 seconds: credits left and roughly how long they'll last, requests so far, how often it updates. |
+| **Double-tap** | **API usage** for 5 seconds: credits left and roughly how long they'll last, requests so far, how often it updates (**PACED** when it's slowed down to make credits last the day). |
 | **Hold ~1 s**, then let go | **Address** for 15 seconds: the board's IP and a **QR code** — scan it with your phone camera to open the dashboard. |
 | **Keep holding** (past ~2 s) | **Reset Wi-Fi** countdown: a bar fills to 5 seconds. **Let go to cancel.** At 5 seconds it forgets Wi-Fi and opens the setup hotspot — you don't need to let go. |
 
