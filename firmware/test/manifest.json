@@ -1,6 +1,6 @@
 {
   "name": "Flight Board (test build)",
-  "version": "test-bfbcfee",
+  "version": "test-7fd29e3",
   "new_install_prompt_erase": true,
   "builds": [
     {
