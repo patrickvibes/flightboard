@@ -1,0 +1,72 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+d:I[98212,["$4","$5"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[98212,["$4","$5"],"$11"]
+13:"MetadataBoundary"
+14:I[98212,["$4","$5"],"$13"]
+9:X
+9:C
+a:X
+c:Tac8,<h1 id="first-time-setup">First-time setup</h1>
+<h2 id="1-connect-it-to-your-wi-fi">1. Connect it to your Wi-Fi</h2>
+<p>The first time it starts (or whenever it can't find a known network), the
+board creates its own Wi-Fi hotspot.</p>
+<ol>
+<li>The screen shows <strong>WI-FI SETUP — JOIN THIS HOTSPOT: FLIGHTBOARD-SETUP</strong>.</li>
+<li>On your phone, join the Wi-Fi network <strong>FlightBoard-setup</strong>.</li>
+<li>A setup page opens automatically. (If not, open a browser and go to
+<code>192.168.4.1</code>.)</li>
+<li>Tap <strong>Configure WiFi</strong>, pick your home network and enter its password.</li>
+<li>The board saves it, connects, and shows its <strong>address</strong> (e.g.
+<code>192.168.1.42</code>) with a <strong>QR code</strong> for 10 seconds.</li>
+</ol>
+<p>The hotspot stays open for 3 minutes. If nobody sets it up, the board
+restarts and tries again.</p>
+<blockquote>
+<p>The board works on <strong>2.4 GHz</strong> Wi-Fi only.</p>
+</blockquote>
+<h2 id="2-open-the-dashboard">2. Open the dashboard</h2>
+<p>On a phone, just <strong>scan the QR code</strong> on the board's screen with the camera.
+Or, on any phone or computer on the same Wi-Fi, open a browser and go to the
+address shown, e.g. <code>http://192.168.1.42</code>.</p>
+<p>Forgot the address? <strong>Hold the button for about 1 second</strong> and let go — the
+address and QR code come back for 15 seconds.</p>
+<h2 id="3-set-your-location">3. Set your location</h2>
+<p>The board starts out watching the sky over Shannon, Ireland.</p>
+<ol>
+<li>Open <strong>Settings</strong> (the ⚙ next to "Scanning", or the menu).</li>
+<li>Type your town or city in <strong>Place</strong> and press <strong>Find</strong>, or enter latitude
+and longitude yourself.</li>
+<li>Press <strong>Save changes</strong>. The board refreshes within a few seconds.</li>
+</ol>
+<p>If the place can't be found, nothing is changed and you'll see
+"Place not found" — try a nearby larger town, or add the country
+("Ennis, Ireland").</p>
+<p>"Use my current location" works on laptops, but phones usually block it on
+local web pages — see <a href="/flightboard/faq/#why-doesnt-use-my-current-location-work-on-my-phone">FAQ</a>.</p>
+<h2 id="4-recommended-add-a-free-opensky-account">4. (Recommended) Add a free OpenSky account</h2>
+<p>Without an account the board can make about 400 requests a day, which runs
+out after a few hours at the default refresh rate. A free account gives
+about 4,000 a day. See <a href="/flightboard/opensky-account/">OpenSky account</a>.</p>
+<h2 id="next">Next</h2>
+<ul>
+<li><a href="/flightboard/using-the-device/">Using the device</a></li>
+<li><a href="/flightboard/web-dashboard/">Web dashboard</a></li>
+<li><a href="/flightboard/settings/">All settings</a></li>
+</ul>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"first-setup","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"First-time setup | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+f:null
+17:true
+a:300
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+10:"$undefined"

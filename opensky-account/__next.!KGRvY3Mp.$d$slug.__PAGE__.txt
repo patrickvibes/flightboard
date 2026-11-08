@@ -1,0 +1,105 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+10:"ViewportBoundary"
+11:I[98212,["$4","$5"],"$10"]
+12:"MetadataBoundary"
+13:I[98212,["$4","$5"],"$12"]
+14:"$Sreact.suspense"
+9:X
+9:C
+a:X
+c:Tc81,<h1 id="opensky-account--usage-limits">OpenSky account &#x26; usage limits</h1>
+<p>Flight Board gets its data from the <a href="https://opensky-network.org">OpenSky Network</a>.
+OpenSky limits how many requests each user can make per day, counted in
+<strong>credits</strong>. Each update of your area costs one credit.</p>
+<table>
+<thead>
+<tr>
+<th>Access</th>
+<th>Credits per day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anonymous (no account)</td>
+<td>~400</td>
+</tr>
+<tr>
+<td>Free OpenSky account</td>
+<td>~4,000</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-long-will-my-credits-last-pacing">How long will my credits last? (pacing)</h2>
+<p>Credits reset every day at <strong>00:00 UTC</strong> (midnight in Ireland in winter, 1 am in summer). With
+<strong>pacing</strong> on (the default), the board does the maths for you: after each
+update it divides the credits it has left by the time until the reset, and
+slows down just enough that they last — so it <strong>never runs dry mid-day</strong>.
+It never goes faster than your <strong>Poll every</strong> setting.</p>
+<table>
+<thead>
+<tr>
+<th>Access</th>
+<th>Credits per day</th>
+<th>What pacing does at the default 60 s</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anonymous</td>
+<td>~400</td>
+<td>Settles at about <strong>every 3–4 minutes</strong>, all day</td>
+</tr>
+<tr>
+<td>Free account</td>
+<td>~4,000</td>
+<td>Usually no change — 60 s fits comfortably</td>
+</tr>
+</tbody>
+</table>
+<p>When the board is pacing, the dashboard says <strong>every 216s (paced)</strong> and the
+board's usage screen (double-tap) says <strong>PACED 216S</strong> instead of
+<strong>EVERY 60S</strong>. Bigger scan areas (over 5° across) cost more credits per
+update, and pacing allows for that too.</p>
+<p>You can turn pacing off in <strong>Settings → Display</strong>. Without it, at 60 s an
+anonymous board uses its ~400 credits in about 7 hours, then waits for the
+reset.</p>
+<p><strong>In short: get a free account</strong> if you want frequent updates all day.</p>
+<h2 id="adding-your-account">Adding your account</h2>
+<ol>
+<li>Create a free account at <a href="https://opensky-network.org">opensky-network.org</a>.</li>
+<li>In your account page, create an <strong>API client</strong>. OpenSky gives you a
+<code>credentials.json</code> file containing a <code>clientId</code> and <code>clientSecret</code>.</li>
+<li>On the Flight Board dashboard, open <strong>Settings → OpenSky account</strong>.</li>
+<li>Choose the <code>credentials.json</code> file and press <strong>Load</strong>.</li>
+<li>The status changes to <strong>Authenticated as …</strong>.</li>
+</ol>
+<p>The credentials are stored on the board only. The secret is never shown
+again on the page. To go back to anonymous, press <strong>Remove credentials</strong>.</p>
+<blockquote>
+<p><strong>Keep <code>credentials.json</code> private.</strong> Don't post it or share it. If it's
+ever exposed, delete that API client on OpenSky and create a new one.</p>
+</blockquote>
+<h2 id="checking-your-usage">Checking your usage</h2>
+<ul>
+<li>Dashboard: <strong>Settings → Usage</strong> shows credits left and roughly how long
+they'll last.</li>
+<li>Device: <strong>double-tap</strong> the button.</li>
+</ul>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"opensky-account","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"OpenSky account & usage limits | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+18:I[98212,["$4","$5"],"OutletBoundary"]
+d:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
+e:["$","$L18",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+17:true
+a:300
+19:null
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+f:"$undefined"

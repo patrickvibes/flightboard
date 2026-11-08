@@ -1,0 +1,51 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+d:"/flightboard/_next/static/chunks/12a964kn9qrkq.js"
+e:"/flightboard/_next/static/chunks/3gj9zk3aa89tw.js"
+f:"/flightboard/_next/static/chunks/2d55t4o2bme20.js"
+10:I[9148,["$4","$5","$d","$e","$f"],""]
+11:I[98212,["$4","$5"],"OutletBoundary"]
+12:"$Sreact.suspense"
+15:"ViewportBoundary"
+16:I[98212,["$4","$5"],"$15"]
+17:"MetadataBoundary"
+18:I[98212,["$4","$5"],"$17"]
+9:X
+9:C
+a:X
+c:T480,<h1 id="test-builds">Test builds</h1>
+<p><strong>Work-in-progress firmware for testing.</strong> It may have bugs. For normal use,
+install from <a href="/flightboard/install/">Install from your browser</a> instead.</p>
+<p id="testinfo">Loading build details…</p>
+
+<esp-web-install-button manifest="/flightboard/firmware/test/manifest.json">
+  <span slot="unsupported">Use <b>Chrome</b> or <b>Edge</b> on a computer.</span>
+  <span slot="not-allowed">This page must be opened over HTTPS.</span>
+</esp-web-install-button>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Plug the board in with a USB data cable, directly (no hub).</li>
+<li>Click <strong>Connect</strong> and choose the board's port.</li>
+<li>Click <strong>Install</strong>. Leave <strong>Erase device unticked</strong> to keep your Wi-Fi and
+settings (tick it only if the board is misbehaving and you want a clean
+start).</li>
+<li>When it finishes, unplug and replug the board.</li>
+</ol>
+<p>Test builds show <strong>TEST-…</strong> on the boot screen and don't show update
+notices. To go back to the normal version, install from
+<a href="/flightboard/install/">Install from your browser</a>.</p>
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[["$","$L10","0",{"src":"https://unpkg.com/esp-web-tools@10.4.0/dist/web/install-button.js?module","type":"module","strategy":"afterInteractive"}],["$","$L10","1",{"id":"page-script-test-1","strategy":"afterInteractive","children":"\nfetch(\"/flightboard/firmware/test/info.json\", {cache: \"no-store\"})\n  .then(r => r.ok ? r.json() : Promise.reject())\n  .then(i => {\n    const el = document.getElementById(\"testinfo\");\n    el.textContent = \"Build \" + i.version + \" · branch \" + i.branch + \" · \" + i.built;\n  })\n  .catch(() => { document.getElementById(\"testinfo\").textContent = \"No test build published yet.\"; });\n"}]]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]]}],"p":"$@14","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"test","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L16",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L18",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Test builds | Flight Board"}],["$","meta","1",{"name":"robots","content":"noindex"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$a"}},"a":"$@1a","u":"$@1b","b":"cGHqlKaXSP8s0UUwKItfj"}
+13:null
+1b:true
+a:300
+a:C
+1a:0
+8:"$undefined"
+19:"$undefined"
+14:"$undefined"

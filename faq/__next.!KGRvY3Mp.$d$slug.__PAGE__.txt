@@ -1,0 +1,55 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+d:I[98212,["$4","$5"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[98212,["$4","$5"],"$11"]
+13:"MetadataBoundary"
+14:I[98212,["$4","$5"],"$13"]
+9:X
+9:C
+a:X
+c:T8a1,<h1 id="faq">FAQ</h1>
+<h3 id="does-it-pick-up-aircraft-radio-signals-itself">Does it pick up aircraft radio signals itself?</h3>
+<p>No. It reads live positions from the OpenSky Network over the internet.
+OpenSky's data comes from volunteers' receivers.</p>
+<h3 id="do-i-need-an-account-or-subscription">Do I need an account or subscription?</h3>
+<p>No, it works anonymously. A free OpenSky account is recommended so it can
+run all day — see <a href="/flightboard/opensky-account/">OpenSky account</a>.</p>
+<h3 id="can-i-see-it-from-outside-my-home">Can I see it from outside my home?</h3>
+<p>Not yet. The dashboard is only on your home network. Remote viewing is
+planned.</p>
+<h3 id="why-doesnt-use-my-current-location-work-on-my-phone">Why doesn't "Use my current location" work on my phone?</h3>
+<p>Phones only share your location with secure (<code>https://</code>) pages. The board's
+page is a plain <code>http://</code> page on your home network, so the phone blocks it
+and the button tells you so — it isn't a setting you've missed. Type your
+town in <strong>Place</strong> instead.</p>
+<h3 id="why-is-a-plane-i-can-see-not-on-the-list">Why is a plane I can see not on the list?</h3>
+<p>It may be outside your scan area or altitude filters, not broadcasting
+ADS-B, or out of range of OpenSky's receivers (more common for low-flying
+aircraft far from a receiver).</p>
+<h3 id="what-does-closest-approach-mean">What does "closest approach" mean?</h3>
+<p>If the aircraft keeps its current heading and speed, how long until it's
+nearest to you and how close it'll get. <code>--</code> means it's moving away.</p>
+<h3 id="can-i-use-a-different-esp32-board">Can I use a different ESP32 board?</h3>
+<p>Any ESP32 with a 128×64 SSD1306 OLED on pins 21/22 should work. Other pin
+layouts and screens are planned — see <a href="/flightboard/hardware/#other-boards">Hardware</a>.</p>
+<h3 id="how-do-i-update-it">How do I update it?</h3>
+<p>The board tells you when a new version is out (a small arrow on the screen
+and a banner on the dashboard). Follow <a href="/flightboard/update/">Update your board</a> — it
+takes about 3 minutes and keeps your settings. Updating over Wi-Fi with no
+cable is planned.</p>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"faq","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"FAQ | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+f:null
+17:true
+a:300
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+10:"$undefined"

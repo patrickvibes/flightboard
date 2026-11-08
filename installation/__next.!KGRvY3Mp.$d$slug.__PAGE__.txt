@@ -1,0 +1,105 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+10:"ViewportBoundary"
+11:I[98212,["$4","$5"],"$10"]
+12:"MetadataBoundary"
+13:I[98212,["$4","$5"],"$12"]
+14:"$Sreact.suspense"
+9:X
+9:C
+a:X
+c:Td0c,<h1 id="install-with-the-arduino-ide-advanced">Install with the Arduino IDE (advanced)</h1>
+<blockquote>
+<p><strong>Most people should use <a href="/flightboard/install/">Install from your browser</a></strong> — it's
+one click and needs no software. This page is for building the firmware
+yourself, e.g. if you want to change the code.</p>
+</blockquote>
+<p>This puts the Flight Board firmware on your ESP32 using the free Arduino IDE.
+It takes about 20 minutes the first time, most of it downloads.</p>
+<h2 id="1-install-the-arduino-ide">1. Install the Arduino IDE</h2>
+<p>Download it from <a href="https://www.arduino.cc/en/software">arduino.cc/en/software</a>
+and install it.</p>
+<h2 id="2-add-esp32-support">2. Add ESP32 support</h2>
+<ol>
+<li>Open <strong>Settings / Preferences</strong>.</li>
+<li>In <strong>Additional boards manager URLs</strong>, add exactly one line:
+<pre><code>https://espressif.github.io/arduino-esp32/package_esp32_index.json
+</code></pre>
+Don't list it twice — duplicate URLs make the install fail.</li>
+<li>Open <strong>Tools → Board → Boards Manager</strong>, search <strong>esp32</strong> (by Espressif
+Systems) and click <strong>Install</strong>. If it fails, remove it, restart the IDE and
+install once more.</li>
+</ol>
+<h2 id="3-install-the-libraries">3. Install the libraries</h2>
+<p><strong>Tools → Manage Libraries</strong>, then install:</p>
+<ul>
+<li><strong>Adafruit SSD1306</strong> (accept the prompt to install Adafruit GFX too)</li>
+<li><strong>ArduinoJson</strong> by Benoit Blanchon — version 7 (tested with 7.4.3)</li>
+<li><strong>WiFiManager</strong> by tzapu (tested with 2.0.17)</li>
+</ul>
+<h2 id="4-open-the-sketch">4. Open the sketch</h2>
+<p>Download the project folder (on GitHub: <strong>Code → Download ZIP</strong>) and unzip it.
+The folder must be called <code>esp32_flight_tracker</code>, matching
+<code>esp32_flight_tracker.ino</code> inside it. Open that <code>.ino</code> in the Arduino IDE;
+the other code files open automatically as tabs.</p>
+<h2 id="5-board-settings">5. Board settings</h2>
+<p>In the <strong>Tools</strong> menu set:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Board</td>
+<td><strong>ESP32 Dev Module</strong></td>
+</tr>
+<tr>
+<td>Partition Scheme</td>
+<td><strong>Huge APP (3MB No OTA/1MB SPIFFS)</strong></td>
+</tr>
+<tr>
+<td>Upload Speed</td>
+<td><strong>115200</strong></td>
+</tr>
+<tr>
+<td>Port</td>
+<td>your board (see below)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>The partition scheme will change when over-the-air updates arrive.</p>
+</blockquote>
+<h2 id="6-connect-and-upload">6. Connect and upload</h2>
+<ol>
+<li>Plug the board <strong>directly</strong> into your computer with a <strong>data</strong> cable.
+Avoid USB hubs — some won't detect the board.</li>
+<li>Choose the new port under <strong>Tools → Port</strong> (on a Mac it looks like
+<code>/dev/cu.usbserial-…</code> or <code>/dev/cu.wchusbserial-…</code>).</li>
+<li>Click <strong>Upload</strong> (→). When it says <em>Done uploading</em>, the board restarts and
+shows its boot animation.</li>
+</ol>
+<p>If the port never appears or the upload fails, see
+<a href="/flightboard/troubleshooting/#flashing">Troubleshooting</a>.</p>
+<h2 id="next">Next</h2>
+<p><a href="/flightboard/first-setup/">First-time setup →</a></p>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"installation","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Install with the Arduino IDE | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+18:I[98212,["$4","$5"],"OutletBoundary"]
+d:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
+e:["$","$L18",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+17:true
+a:300
+19:null
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+f:"$undefined"

@@ -1,0 +1,91 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+d:I[98212,["$4","$5"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[98212,["$4","$5"],"$11"]
+13:"MetadataBoundary"
+14:I[98212,["$4","$5"],"$13"]
+9:X
+9:C
+a:X
+c:Ta70,<h1 id="privacy--data">Privacy &#x26; data</h1>
+<h2 id="what-the-board-stores">What the board stores</h2>
+<p>On the board's own flash memory only:</p>
+<ul>
+<li>your Wi-Fi network name and password,</li>
+<li>your location (coordinates and place name) and other settings,</li>
+<li>your OpenSky credentials, if you add them.</li>
+</ul>
+<p>None of this is sent to the Flight Board project. The only contact with the
+project's website is the optional update check, which sends no ID or
+settings. There is no account, analytics or tracking.</p>
+<h2 id="who-the-board-talks-to">Who the board talks to</h2>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Why</th>
+<th>What it sends</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://opensky-network.org">OpenSky Network</a></td>
+<td>Live aircraft positions; aircraft details</td>
+<td>The edges of your scan area; your OpenSky credentials if added; an aircraft's ID when you open its details</td>
+</tr>
+<tr>
+<td><a href="https://nominatim.org">OpenStreetMap Nominatim</a> (place search)</td>
+<td>Turning a place name into coordinates</td>
+<td>The place name you type</td>
+</tr>
+<tr>
+<td><a href="https://www.adsbdb.com">adsbdb.com</a></td>
+<td>Flight routes</td>
+<td>A flight's callsign, when you open its details</td>
+</tr>
+<tr>
+<td>Flight Board website (GitHub Pages)</td>
+<td>Checking for a newer firmware version, twice a day (can be turned off)</td>
+<td>Nothing but the request itself — no ID or settings</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-your-browser-loads">What your browser loads</h2>
+<ul>
+<li>The dashboard page itself comes from the board.</li>
+<li>The page loads the <a href="https://leafletjs.com">Leaflet</a> map library from
+unpkg.com, map tiles from <a href="https://www.openstreetmap.org">OpenStreetMap</a>,
+and its display font from Google Fonts. These services see your IP address, as with any
+web page.</li>
+<li>Sound and traffic-history preferences are saved in your browser.</li>
+</ul>
+<h2 id="your-location">Your location</h2>
+<p>Your scan area is sent to OpenSky with every update — that's how it knows
+which aircraft to return. Use a nearby town rather than your exact address
+if you prefer.</p>
+<h2 id="security-notes">Security notes</h2>
+<ul>
+<li>The dashboard has no password. Anyone on your Wi-Fi can open it and change
+settings. Don't put the board on a network you don't trust, and never
+expose it directly to the internet.</li>
+<li>The board doesn't verify the security certificates of the services it
+contacts. That's acceptable for public flight data, but it's one reason
+the board should only hold credentials that are low-risk (like an OpenSky
+API client) and easy to replace.</li>
+</ul>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"privacy","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Privacy & data | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+f:null
+17:true
+a:300
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+10:"$undefined"

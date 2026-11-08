@@ -1,0 +1,82 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+10:"ViewportBoundary"
+11:I[98212,["$4","$5"],"$10"]
+12:"MetadataBoundary"
+13:I[98212,["$4","$5"],"$12"]
+14:"$Sreact.suspense"
+9:X
+9:C
+a:X
+c:Tc79,<h1 id="troubleshooting">Troubleshooting</h1>
+<h2 id="flashing">Flashing</h2>
+<p><strong>No port appears when I plug the board in.</strong>
+Almost always the cable or a hub. Use a USB <strong>data</strong> cable (many are
+charge-only) plugged <strong>directly</strong> into the computer, not through a hub or
+dock. Try another cable before installing drivers.</p>
+<p><strong>Upload fails with "No more data to read" or times out.</strong>
+Set <strong>Tools → Upload Speed</strong> to <strong>115200</strong>. Faster speeds are unreliable on
+these boards.</p>
+<p><strong>"Failed to install platform esp32".</strong>
+You probably have the ESP32 boards URL listed twice in Preferences. Keep one
+copy, restart the IDE, remove the ESP32 platform, then install it once.</p>
+<p><strong>"Sketch too big".</strong>
+Set <strong>Tools → Partition Scheme</strong> to <strong>Huge APP</strong>.</p>
+<p><strong>Compile error mentioning WiFiManager callbacks.</strong>
+Check you installed <strong>WiFiManager by tzapu</strong> and not a similarly named
+library.</p>
+<h2 id="wi-fi">Wi-Fi</h2>
+<p><strong>The setup hotspot doesn't appear.</strong>
+Keep holding the button for 5 s (a bar fills; let go early to cancel) to
+clear saved Wi-Fi. The screen will say
+<strong>WI-FI SETUP — JOIN THIS HOTSPOT: FLIGHTBOARD-SETUP</strong>.</p>
+<p><strong>It won't join my network.</strong>
+The ESP32 only supports <strong>2.4 GHz</strong> Wi-Fi. If your router combines 2.4 and
+5 GHz under one name, try enabling a separate 2.4 GHz network.</p>
+<p><strong>I set a static IP and now I can't reach it.</strong>
+Keep holding the button for 5 s to reset Wi-Fi, then set it up again and clear the
+static IP fields.</p>
+<h2 id="data">Data</h2>
+<p><strong>No aircraft are showing.</strong></p>
+<ul>
+<li>Check the location in Settings.</li>
+<li>Try a bigger <strong>Scan size</strong>, or check your altitude filters.</li>
+<li>At night, quiet areas can genuinely be empty.</li>
+<li>Look for a rate-limit notice — you may be out of credits.</li>
+</ul>
+<p><strong>"Rate limited" / it stops updating after a few hours.</strong>
+You've used your daily OpenSky credits. Add a free
+<a href="/flightboard/opensky-account/">OpenSky account</a> or poll less often.</p>
+<p><strong>Route or aircraft type is blank.</strong>
+Not every flight is in the public route and aircraft databases.</p>
+<h2 id="dashboard">Dashboard</h2>
+<p><strong>The page won't load.</strong>
+Make sure your phone/laptop is on the same Wi-Fi as the board. Hold the
+button ~1 s and let go to see the address and a QR code.</p>
+<p><strong>No sound.</strong>
+Tap anywhere on the page first — browsers block sound until you interact —
+then check the 🔔 / ♪ buttons.</p>
+<p><strong>"Use my current location" says permission denied.</strong>
+Expected on phones — see the <a href="/flightboard/faq/#why-doesnt-use-my-current-location-work-on-my-phone">FAQ</a>.
+Type your town instead.</p>
+<h2 id="still-stuck">Still stuck?</h2>
+<p>Connect the board to the Arduino IDE and open <strong>Tools → Serial Monitor</strong> at
+<strong>115200</strong> baud. The board prints its status there, including how many
+flights it found and how much memory is free.</p>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"troubleshooting","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Troubleshooting | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+18:I[98212,["$4","$5"],"OutletBoundary"]
+d:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
+e:["$","$L18",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+17:true
+a:300
+19:null
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+f:"$undefined"

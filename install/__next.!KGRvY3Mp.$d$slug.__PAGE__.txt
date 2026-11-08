@@ -1,0 +1,66 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+d:"/flightboard/_next/static/chunks/12a964kn9qrkq.js"
+e:"/flightboard/_next/static/chunks/3gj9zk3aa89tw.js"
+f:"/flightboard/_next/static/chunks/2d55t4o2bme20.js"
+10:I[9148,["$4","$5","$d","$e","$f"],""]
+11:I[98212,["$4","$5"],"OutletBoundary"]
+12:"$Sreact.suspense"
+15:"ViewportBoundary"
+16:I[98212,["$4","$5"],"$15"]
+17:"MetadataBoundary"
+18:I[98212,["$4","$5"],"$17"]
+9:X
+9:C
+a:X
+c:T84f,<h1 id="install-from-your-browser">Install from your browser</h1>
+<p>The quickest way to put Flight Board on your board. No Arduino IDE, no
+downloads — just Chrome or Edge on a computer.</p>
+
+<esp-web-install-button manifest="/flightboard/firmware/manifest.json">
+  <span slot="unsupported">Your browser can't do this. Please use <b>Chrome</b> or <b>Edge</b> on a
+  computer (not a phone or Safari/Firefox).</span>
+  <span slot="not-allowed">This page must be opened over HTTPS.</span>
+</esp-web-install-button>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Plug the board <strong>directly</strong> into your computer with a USB <strong>data</strong> cable
+(not a hub — and not a charge-only cable).</li>
+<li>Click <strong>Connect</strong> above and choose the port that appears when you plug the
+board in (it may be called "USB Serial" or <code>cu.usbserial-…</code>).</li>
+<li>Click <strong>Install Flight Board</strong>.
+<ul>
+<li><strong>First install on this board:</strong> tick <strong>Erase device</strong>.</li>
+<li><strong>Updating:</strong> leave <strong>Erase device unticked</strong> — your Wi-Fi, location and
+settings are kept.</li>
+</ul>
+</li>
+<li>Wait for it to finish (2–3 minutes), then close the dialog.</li>
+<li>Unplug and replug the board (or press its <strong>EN / RST</strong> button). You'll see
+the boot animation.</li>
+</ol>
+<p>New board? Carry on with <a href="/flightboard/first-setup/">First-time setup</a>.</p>
+<h2 id="if-it-doesnt-connect">If it doesn't connect</h2>
+<ul>
+<li>Try another USB cable — many are charge-only.</li>
+<li>Hold the board's <strong>BOOT</strong> button while you click <strong>Connect</strong>, then let go.</li>
+<li>On Windows you may need the <strong>CH340</strong> USB driver from the board maker.</li>
+<li>Still stuck? Use the <a href="/flightboard/installation/">Arduino IDE method</a> instead.</li>
+</ul>
+<h2 id="what-gets-installed">What gets installed</h2>
+<p>The latest release — see <a href="/flightboard/changelog/">what's new</a>. The firmware files are
+published in the <a href="https://github.com/patrickvibes/flightboard">Flight Board repository</a>.</p>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[["$","$L10","0",{"src":"https://unpkg.com/esp-web-tools@10.4.0/dist/web/install-button.js?module","type":"module","strategy":"afterInteractive"}]]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]]}],"p":"$@14","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"install","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L16",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L18",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Install from your browser | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$a"}},"a":"$@1a","u":"$@1b","b":"cGHqlKaXSP8s0UUwKItfj"}
+13:null
+1b:true
+a:300
+a:C
+1a:0
+8:"$undefined"
+19:"$undefined"
+14:"$undefined"

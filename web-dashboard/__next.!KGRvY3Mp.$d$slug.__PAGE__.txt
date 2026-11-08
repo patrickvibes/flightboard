@@ -1,0 +1,89 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+10:"ViewportBoundary"
+11:I[98212,["$4","$5"],"$10"]
+12:"MetadataBoundary"
+13:I[98212,["$4","$5"],"$12"]
+14:"$Sreact.suspense"
+9:X
+9:C
+a:X
+c:Te32,<h1 id="web-dashboard">Web dashboard</h1>
+<p>Open <code>http://&#x3C;board-address>/</code> on any device on the same Wi-Fi. The page
+updates itself every 5 seconds — no need to refresh.</p>
+<h2 id="the-board">The board</h2>
+<ul>
+<li><strong>Scanning</strong> shows your area and coordinates.</li>
+<li><strong>Stats line</strong> with the nearest, fastest and highest aircraft.</li>
+<li><strong>Traffic sparkline</strong> — how many aircraft were in your area over the last
+60 updates, with the peak. Kept in your browser between visits.</li>
+<li><strong>Flight list</strong> — callsign, distance, altitude (▲ climbing / ▼ descending),
+speed and closest approach, nearest first. The <strong>◉</strong> marker is brightest
+for the closest aircraft and blinks when a flight is new.</li>
+</ul>
+<p><strong>Tap a flight</strong> to open its details: airline, route (from → to) and
+aircraft type/registration where known. From there you can:</p>
+<ul>
+<li><strong>Lock</strong> it to the OLED screen (tap again to unlock),</li>
+<li><strong>✈ Enter cockpit</strong> for the instrument view.</li>
+</ul>
+<h2 id="live-map">Live map</h2>
+<p>Menu → <strong>Live map</strong>. Each aircraft is an arrow at its position, pointing the
+way it's heading. Tap one to select it; the selected aircraft has a white
+glow.</p>
+<ul>
+<li><strong>Colour shows altitude:</strong> orange near the ground, then yellow, green and
+blue, up to violet at 40,000 ft (12,000 m) and above. Aircraft on the
+ground are grey; an emergency is red. The key is in the bottom-left
+corner.</li>
+<li><strong>Trails</strong> show where each aircraft has flown since it entered your area:
+faint where it came in, solid at its current position. Each part of the
+trail is coloured by the altitude it was flying at then, so climbs and
+descents show as a change of colour.</li>
+<li>Trails are kept by the open dashboard page, from the moment it loads, for
+the last 60 updates. Reloading the page starts them again.</li>
+</ul>
+<h2 id="cockpit">Cockpit</h2>
+<p>A full-screen instrument panel for one flight: airspeed dial, heading
+compass and altimeter, updating live. <strong>Exit cockpit</strong> to return.</p>
+<h2 id="overhead-now">Overhead now</h2>
+<p>When an aircraft comes within <strong>3 km</strong> of you (horizontally), a lime
+<strong>OVERHEAD NOW</strong> banner appears at the top of the page and follows that
+aircraft. It's brightest when the plane is within about 1.2 km and fades as
+it moves away. A rising chime plays as it enters (if sound is on).</p>
+<p>The banner follows the board's own live estimate, so it appears at the same
+moment as the board's OVERHEAD screen, even between OpenSky updates.</p>
+<h2 id="sound">Sound</h2>
+<p>Two buttons in the top bar:</p>
+<ul>
+<li>🔔 <strong>Arrival chime</strong> — a soft two-tone ding for each new aircraft.</li>
+<li>♪ <strong>Ambient audio</strong> — a quiet background drone.</li>
+</ul>
+<p>Browsers only allow sound after you've tapped the page once.</p>
+<h2 id="this-session">This session</h2>
+<p>Peak traffic (and when), highest and fastest aircraft seen, countries and
+unique callsigns since you opened the page.</p>
+<h2 id="kiosk-mode-wall-display">Kiosk mode (wall display)</h2>
+<p>Add <code>?kiosk</code> to the address, e.g. <code>http://192.168.1.42/?kiosk</code>. Menus and
+buttons are hidden, text is larger, and a highlight moves down the list
+every 4 seconds. Ideal for an old tablet on the wall.</p>
+<h2 id="settings-and-about">Settings and About</h2>
+<p>See <a href="/flightboard/settings/">Settings reference</a>. <strong>About</strong> describes the project and
+data sources.</p>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"web-dashboard","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Web dashboard | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+18:I[98212,["$4","$5"],"OutletBoundary"]
+d:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
+e:["$","$L18",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+17:true
+a:300
+19:null
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+f:"$undefined"
