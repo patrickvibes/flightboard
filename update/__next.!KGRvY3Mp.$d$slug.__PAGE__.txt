@@ -12,7 +12,7 @@ e:"$Sreact.suspense"
 9:X
 9:C
 a:X
-c:T458,<h1 id="update-your-board">Update your board</h1>
+c:T5a3,<h1 id="update-your-board">Update your board</h1>
 <p>Your board told you there's a new version. Updating takes about 3 minutes and
 <strong>keeps your Wi-Fi, location and settings</strong>.</p>
 <ol>
@@ -24,6 +24,11 @@ USB data cable.</li>
 <li>When it's done, unplug it, put it back where it lives, and power it up.</li>
 </ol>
 <p>The dashboard footer and the boot screen show the version you're running.</p>
+<h2 id="check-for-a-new-version-now">Check for a new version now</h2>
+<p>The board checks by itself twice a day. To check straight away, open the
+dashboard, go to <strong>Settings → Firmware</strong> and press <strong>Check now</strong>. It tells
+you whether you're up to date, or which version is out with a link back
+here.</p>
 <h2 id="whats-new">What's new</h2>
 <p>See the <a href="/flightboard/changelog/">changelog</a>.</p>
 <h2 id="dont-want-update-notices">Don't want update notices?</h2>
@@ -31,7 +36,7 @@ USB data cable.</li>
 never installs anything on its own — it only tells you a new version exists.</p>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$a"}}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"update","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
 1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Update your board | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"SPT-xnFLt6g2b2W7wbbnh"}
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Update your board | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"s4thS0tJta6T0IHZZHnrO"}
 f:null
 17:true
 a:300

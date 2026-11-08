@@ -8,6 +8,14 @@ What's new in each Flight Board firmware release. Newest first.
 
 ## [Unreleased]
 
+## [1.3.1] - 2026-11-08
+Check for updates whenever you like.
+
+- Settings → Firmware has a **Check now** button: see straight away
+  whether a newer version is out, instead of waiting for the twice-daily
+  check.
+- Website: the radar on the home page now sweeps and pings.
+
 ## [1.3.0] - 2026-11-08
 A clearer live map, and a new website.
 

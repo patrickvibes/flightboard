@@ -11,7 +11,7 @@
 9:X
 9:C
 a:X
-c:T16ad,<h1 id="settings-reference">Settings reference</h1>
+c:T17f5,<h1 id="settings-reference">Settings reference</h1>
 <p>Open the dashboard → <strong>Settings</strong>, change what you need, then <strong>Save
 changes</strong>. Settings are stored on the board and survive restarts. The board
 refreshes within a few seconds of saving.</p>
@@ -200,6 +200,11 @@ board restarts.</p>
 <td>On</td>
 <td>Twice a day the board checks the Flight Board website for a newer version. If there is one, a small arrow appears on the screen and a banner on the dashboard links to <a href="/flightboard/update/">Update your board</a>. It never installs anything itself. <strong>Dismiss</strong> on the banner hides the notice for that version.</td>
 </tr>
+<tr>
+<td>Check now (button)</td>
+<td>—</td>
+<td>Checks the website straight away and says whether you're up to date or which version is out, with a link to <a href="/flightboard/update/">Update your board</a>. Works even with the setting above turned off. On a test build it shows the latest release but no notice.</td>
+</tr>
 </tbody>
 </table>
 <p>The version you're running is shown here, on the boot screen and in the
@@ -246,7 +251,7 @@ last at your current poll interval.</p>
 </ul>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$a"}}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"settings","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
 1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Settings reference | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"SPT-xnFLt6g2b2W7wbbnh"}
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Settings reference | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"s4thS0tJta6T0IHZZHnrO"}
 18:I[98212,["$4","$5"],"OutletBoundary"]
 d:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
 e:["$","$L18",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]

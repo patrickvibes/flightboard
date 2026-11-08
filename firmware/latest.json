@@ -1,6 +1,6 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "date": "2026-11-08",
   "chip": "esp32",
-  "notes": "A clearer live map, and a new website.\n\u2022 Live map: aircraft arrows now point the way the plane is actually heading (they were a quarter-turn off).\n\u2022 Live map: aircraft and their trails are coloured by altitude, and trails fade from where the plane entered your area to solid at its position."
+  "notes": "Check for updates whenever you like.\n\u2022 Settings \u2192 Firmware has a Check now button: see straight away whether a newer version is out, instead of waiting for the twice-daily check.\n\u2022 Website: the radar on the home page now sweeps and pings."
 }

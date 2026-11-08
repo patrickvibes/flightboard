@@ -1,1 +1,0 @@
-@keyframes fb-marquee{0%,15%{transform:translate(0)}85%,to{transform:translate(-55%)}}@keyframes fb-progress{0%{width:0}to{width:100%}}.fb-marquee{animation:4.5s linear both fb-marquee}.fb-progress{animation:4.5s linear both fb-progress}@media (prefers-reduced-motion:reduce){.fb-marquee,.fb-progress{animation:none}.fb-progress{width:100%}}
