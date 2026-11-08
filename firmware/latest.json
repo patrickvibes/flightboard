@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "date": "2026-11-07",
+  "version": "1.3.0",
+  "date": "2026-11-08",
   "chip": "esp32",
-  "notes": "Your OpenSky credits now last all day.\n\u2022 Credits now last all day: the board paces its updates so OpenSky's daily allowance runs until the midnight (UTC) reset instead of running out in the afternoon. Without an account it updates every few minutes, all day. Can be turned off in Settings."
+  "notes": "A clearer live map, and a new website.\n\u2022 Live map: aircraft arrows now point the way the plane is actually heading (they were a quarter-turn off).\n\u2022 Live map: aircraft and their trails are coloured by altitude, and trails fade from where the plane entered your area to solid at its position."
 }

@@ -7,12 +7,18 @@ What's new in each Flight Board firmware release. Newest first.
      boards' dashboards, so keep the opening lines short and user-facing. -->
 
 ## [Unreleased]
+
+## [1.3.0] - 2026-11-08
+A clearer live map, and a new website.
+
 - Live map: aircraft arrows now point the way the plane is actually
   heading (they were a quarter-turn off).
 - Live map: aircraft and their trails are coloured by altitude, and trails
   fade from where the plane entered your area to solid at its position.
 - "Use my current location" now explains why phones won't share location
   with the board's page, instead of a bare "Permission denied".
+- New website, with a guide to how the coming game mode will score.
+  Every old link still works; the docs overview is now at /docs/.
 
 ## [1.2.0] - 2026-11-07
 Your OpenSky credits now last all day.

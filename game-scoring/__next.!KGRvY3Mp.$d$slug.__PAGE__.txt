@@ -1,0 +1,162 @@
+3:"$Sreact.fragment"
+4:"/flightboard/_next/static/chunks/09wvooy3vga6v.js"
+5:"/flightboard/_next/static/chunks/1icvrh_6tck9c.js"
+6:I[90880,["$4","$5"],"default"]
+7:I[34279,["$4","$5"],"default"]
+10:"ViewportBoundary"
+11:I[98212,["$4","$5"],"$10"]
+12:"MetadataBoundary"
+13:I[98212,["$4","$5"],"$12"]
+14:"$Sreact.suspense"
+9:X
+9:C
+a:X
+c:T1802,<h1 id="how-the-game-scores">How the game scores</h1>
+<p><strong>Game mode is coming soon.</strong> This page explains how it will work. Your
+board keeps doing everything it does today; game mode adds a weekly
+competition on top, against friends in a league or everyone on the world
+table.</p>
+<h2 id="every-week-is-a-new-round">Every week is a new round</h2>
+<p>Rounds run <strong>Monday 00:00 to Sunday 23:59, Dublin time</strong>. Your board
+watches the sky all week and keeps four records. When the round ends, the
+week is sealed, trophies are handed out, and everyone starts again from zero
+on Monday.</p>
+<p>You don't need to do anything during the week. Just leave the board running.</p>
+<h2 id="the-four-records">The four records</h2>
+<table>
+<thead>
+<tr>
+<th>Record</th>
+<th>What counts</th>
+<th>What helps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fastest</strong></td>
+<td>The highest ground speed of any aircraft your board saw, boosted by how close it came (see the rings below)</td>
+<td>Jet-stream nights, and planes passing close by</td>
+</tr>
+<tr>
+<td><strong>Highest</strong></td>
+<td>The greatest altitude of any aircraft your board saw, boosted the same way</td>
+<td>Business jets often fly higher than airliners</td>
+</tr>
+<tr>
+<td><strong>Most tracked</strong></td>
+<td>How many different flights (callsigns) your board logged this week</td>
+<td>Keeping your board switched on: uptime matters more than location</td>
+</tr>
+<tr>
+<td><strong>Busiest sky</strong></td>
+<td>The most aircraft inside your sky window at the same moment</td>
+<td>Evening transatlantic waves often set this one</td>
+</tr>
+</tbody>
+</table>
+<p>Each record shows the flight that earned it, for example
+<em>"1,084 km/h ×5 · UAE41 · Boston → Dubai · Wed 21:14"</em>.</p>
+<h2 id="the-target-rings">The target rings</h2>
+<p>Your board's patch of sky is a target: four rings around your location, out
+to <strong>60 km</strong>. Distances are measured along the ground, so a plane counts as
+"overhead" when it's directly above you at any height.</p>
+<table>
+<thead>
+<tr>
+<th>Ring</th>
+<th>Distance from your board</th>
+<th>Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outer</td>
+<td>30 to 60 km</td>
+<td>×1</td>
+</tr>
+<tr>
+<td>Inner</td>
+<td>15 to 30 km</td>
+<td>×2</td>
+</tr>
+<tr>
+<td>Centre</td>
+<td>3 to 15 km</td>
+<td>×3</td>
+</tr>
+<tr>
+<td><strong>Overhead</strong></td>
+<td>within 3 km</td>
+<td><strong>×5</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Each aircraft gets the boost of the <strong>closest ring it reached</strong>, and only
+that one: a plane that flies right over you is ×5, not 1 + 2 + 3 + 5.</p>
+<p>The boost applies to <strong>Fastest</strong> and <strong>Highest</strong>. So a jet doing 1,000 km/h
+straight over your house (1,000 × 5) beats one doing 1,100 km/h at the edge
+of your window (1,100 × 1). Tables always show the real speed or altitude
+with its boost next to it, never a made-up number.</p>
+<p><strong>Most tracked</strong> and <strong>Busiest sky</strong> have no boost: they reward a board
+that's always on and a busy patch of sky.</p>
+<p>When a plane crosses the overhead ring, your board flashes <strong>+5 OVERHEAD</strong>
+and plays its chime, as it does now.</p>
+<h3 id="planes-between-checks">Planes between checks</h3>
+<p>Your board checks for aircraft about once a minute, and a jet can travel
+13 km in that time. So the game looks at the <strong>path</strong> a plane flew between
+two checks, not just the two dots: if the line between them passes over you,
+it counts as overhead. If a plane disappears for more than a few minutes,
+the game doesn't guess where it went.</p>
+<h3 id="planes-that-hang-around">Planes that hang around</h3>
+<p>A plane circling or holding nearby counts <strong>once</strong>. It can only count again
+after it has been outside your window for 30 minutes.</p>
+<h2 id="league-tables">League tables</h2>
+<p>In a league, everyone is ranked in each of the four records. Your <strong>league
+position</strong> adds up your four places: for example 1st + 3rd + 2nd + 4th = 10.
+<strong>The lowest total wins.</strong> If two players tie, the one who tracked more
+flights goes ahead.</p>
+<p>At the end of the week, the leader in each record wins that week's
+<strong>trophy</strong> for the league. Trophies stay in your trophy cabinet for good.</p>
+<h2 id="the-world-table">The world table</h2>
+<p>Every paired board is also on the world table, ranked in each record. On
+the world table, player callsigns are hidden (you appear as something like
+<em>ANON · 7Q3K</em>) and only your country is shown, never your location.</p>
+<h2 id="fair-play">Fair play</h2>
+<ul>
+<li><strong>Same rules for every board.</strong> At the start of each round your board
+fetches the round's rules (window size, ring sizes, how often to check)
+from the game server. The rules are signed, so editing the board's
+software changes nothing.</li>
+<li><strong>Checked against our own data.</strong> Your board still does the tracking and
+sends its records. The server checks them against its own copy of the
+same OpenSky data for your patch of sky. Results that match show as
+<strong>Matched</strong>. Anything that doesn't is <strong>In review</strong>: it stays on the
+table, but can't win a trophy until it's cleared.</li>
+<li><strong>Sealed weeks.</strong> Each finished week is sealed with a fingerprint that is
+chained to the week before, so past results can't be quietly changed.</li>
+</ul>
+<h2 id="questions">Questions</h2>
+<p><strong>Does living under a flight path win everything?</strong> It helps with Busiest
+sky, but not much else. Fastest and Highest reward planes that come close,
+and Most tracked rewards keeping the board on. A board in a quiet spot can
+still take trophies.</p>
+<p><strong>What if my board is offline for a while?</strong> It simply doesn't see planes
+while it's off. Most tracked is the record that suffers most. Nothing is
+lost from the rest of the week.</p>
+<p><strong>Do I need an OpenSky account?</strong> Yes, for game mode. It lets your board
+check often enough for a fair game. See
+<a href="/flightboard/opensky-account/">OpenSky account &#x26; usage limits</a>.</p>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"game-scoring","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"How the game scores | Flight Board"}],["$","meta","1",{"name":"description","content":"Weekly rounds, the four records, the target rings and how league tables are decided in Flight Board game mode."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"SPT-xnFLt6g2b2W7wbbnh"}
+18:I[98212,["$4","$5"],"OutletBoundary"]
+d:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
+e:["$","$L18",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+17:true
+a:300
+19:null
+a:C
+16:0
+8:"$undefined"
+15:"$undefined"
+f:"$undefined"

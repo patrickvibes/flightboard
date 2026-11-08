@@ -12,9 +12,10 @@ e:"$Sreact.suspense"
 9:X
 9:C
 a:X
-c:T7ed,<h1 id="whats-new">What's new</h1>
+c:T8b4,<h1 id="whats-new">What's new</h1>
 <p>What's new in each Flight Board firmware release. Newest first.</p>
-<h2 id="unreleased">[Unreleased]</h2>
+<h2 id="130---2026-11-08">[1.3.0] - 2026-11-08</h2>
+<p>A clearer live map, and a new website.</p>
 <ul>
 <li>Live map: aircraft arrows now point the way the plane is actually
 heading (they were a quarter-turn off).</li>
@@ -22,6 +23,8 @@ heading (they were a quarter-turn off).</li>
 fade from where the plane entered your area to solid at its position.</li>
 <li>"Use my current location" now explains why phones won't share location
 with the board's page, instead of a bare "Permission denied".</li>
+<li>New website, with a guide to how the coming game mode will score.
+Every old link still works; the docs overview is now at /docs/.</li>
 </ul>
 <h2 id="120---2026-11-07">[1.2.0] - 2026-11-07</h2>
 <p>Your OpenSky credits now last all day.</p>
@@ -54,7 +57,7 @@ screen when a plane passes within 3 km, with a live countdown.</li>
 </ul>b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$c"}}],[]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$a"}}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"changelog","s":["docs"]},"h":65600,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
 1:[["children",{"s":"(docs)","h":131104,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"What's new | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"cGHqlKaXSP8s0UUwKItfj"}
+0:{"t":{"t":{"s":"","h":131152,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"What's new | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"SPT-xnFLt6g2b2W7wbbnh"}
 f:null
 17:true
 a:300
