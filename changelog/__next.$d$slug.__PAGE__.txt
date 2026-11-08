@@ -1,0 +1,64 @@
+2:"$Sreact.fragment"
+3:"/flightboard/_next/static/chunks/06qy65nzqsmty.js"
+4:"/flightboard/_next/static/chunks/2o8lz3ifxz0tc.js"
+5:I[90880,["$3","$4"],"default"]
+6:I[34279,["$3","$4"],"default"]
+c:I[98212,["$3","$4"],"OutletBoundary"]
+d:"$Sreact.suspense"
+10:"ViewportBoundary"
+11:I[98212,["$3","$4"],"$10"]
+12:"MetadataBoundary"
+13:I[98212,["$3","$4"],"$12"]
+8:X
+8:C
+9:X
+b:T7ed,<h1 id="whats-new">What's new</h1>
+<p>What's new in each Flight Board firmware release. Newest first.</p>
+<h2 id="unreleased">[Unreleased]</h2>
+<ul>
+<li>Live map: aircraft arrows now point the way the plane is actually
+heading (they were a quarter-turn off).</li>
+<li>Live map: aircraft and their trails are coloured by altitude, and trails
+fade from where the plane entered your area to solid at its position.</li>
+<li>"Use my current location" now explains why phones won't share location
+with the board's page, instead of a bare "Permission denied".</li>
+</ul>
+<h2 id="120---2026-11-07">[1.2.0] - 2026-11-07</h2>
+<p>Your OpenSky credits now last all day.</p>
+<ul>
+<li>Credits now last all day: the board paces its updates so OpenSky's daily
+allowance runs until the midnight (UTC) reset instead of running out in
+the afternoon. Without an account it updates every few minutes, all day.
+Can be turned off in Settings.</li>
+</ul>
+<h2 id="110---2026-11-07">[1.1.0] - 2026-11-07</h2>
+<p>New look for the board's screen.</p>
+<ul>
+<li>New screens on the board: a cleaner flight view with airline and route
+codes, a radar "quiet sky" when nothing's around, close-approach and
+emergency alert screens, and a "no data" screen that says why and when
+it'll retry.</li>
+<li>Hold the button for 1 s to get a QR code that opens the dashboard.</li>
+<li>Wi-Fi reset now shows a countdown bar: let go to cancel; it fires at 5 s.</li>
+<li>Overhead screen redesigned with a closeness meter.</li>
+</ul>
+<h2 id="100---2026-11-07">[1.0.0] - 2026-11-07</h2>
+<p>First versioned release.</p>
+<ul>
+<li>Overhead moment on the board: a chime, a screen flash and an OVERHEAD NOW
+screen when a plane passes within 3 km, with a live countdown.</li>
+<li>Soft tick while a plane is overhead (can be turned off in Settings).</li>
+<li>The board now tells you when a new version is out (Settings → Firmware).</li>
+<li>Install and update from your browser, no Arduino IDE needed.</li>
+<li>Cleaner traffic chart: the label no longer overlaps the line.</li>
+</ul>a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$b"}}],[]],[["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]],["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}],"p":"$@f","v":null,"s":"$9"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"changelog","s":[]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"What's new | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@14","v":null,"s":"$9"}},"a":"$@15","u":"$@16","b":"9i7JWpziWTe4uI01dhDTa"}
+e:null
+16:true
+9:300
+9:C
+15:0
+7:"$undefined"
+14:"$undefined"
+f:"$undefined"

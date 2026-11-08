@@ -1,0 +1,259 @@
+2:"$Sreact.fragment"
+3:"/flightboard/_next/static/chunks/06qy65nzqsmty.js"
+4:"/flightboard/_next/static/chunks/2o8lz3ifxz0tc.js"
+5:I[90880,["$3","$4"],"default"]
+6:I[34279,["$3","$4"],"default"]
+f:"ViewportBoundary"
+10:I[98212,["$3","$4"],"$f"]
+11:"MetadataBoundary"
+12:I[98212,["$3","$4"],"$11"]
+13:"$Sreact.suspense"
+8:X
+8:C
+9:X
+b:T16ad,<h1 id="settings-reference">Settings reference</h1>
+<p>Open the dashboard → <strong>Settings</strong>, change what you need, then <strong>Save
+changes</strong>. Settings are stored on the board and survive restarts. The board
+refreshes within a few seconds of saving.</p>
+<h2 id="location">Location</h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Range</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Place</td>
+<td><em>(none)</em></td>
+<td>town or city</td>
+<td>Press <strong>Find</strong> to look it up. If it can't be found, nothing changes and you see "Place not found".</td>
+</tr>
+<tr>
+<td>Latitude / Longitude</td>
+<td>52.7019, −8.8647 (Shannon)</td>
+<td>decimal degrees</td>
+<td>Editing these by hand clears the place name.</td>
+</tr>
+<tr>
+<td>Scan size</td>
+<td>0.6</td>
+<td>above 0.05, below 5 (degrees)</td>
+<td>Distance either side of you. 0.6° ≈ 65 km north–south. Bigger = more aircraft, but the same request cost.</td>
+</tr>
+<tr>
+<td>Radial scan</td>
+<td>Off</td>
+<td>on / off</td>
+<td>Trim the box to a circle of radius ≈ scan size × 111 km.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="display">Display</h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Range</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OLED mode</td>
+<td>Step</td>
+<td>Step / Ticker</td>
+<td>Step: button moves on. Ticker: moves on automatically.</td>
+</tr>
+<tr>
+<td>Units</td>
+<td>Metric</td>
+<td>Metric (km, m, km/h) · Imperial (mi, ft, mph) · Aviation (km, ft, kn)</td>
+<td>Applies to the screen and dashboard.</td>
+</tr>
+<tr>
+<td>Poll every</td>
+<td>60 s</td>
+<td>10–120 s</td>
+<td>The fastest the board will ask OpenSky. Pacing may slow it to make credits last.</td>
+</tr>
+<tr>
+<td>Seconds per flight (Ticker)</td>
+<td>5 s</td>
+<td>2–30 s</td>
+<td>Only used in Ticker mode.</td>
+</tr>
+<tr>
+<td>Pace polling so OpenSky credits last the whole day</td>
+<td>On</td>
+<td>on / off</td>
+<td>Slows updates just enough that your daily credits last until the 00:00 UTC reset. Never faster than <strong>Poll every</strong>. See <a href="/flightboard/opensky-account/#how-long-will-my-credits-last-pacing">pacing</a>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="alerts--filters">Alerts &#x26; filters</h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Range</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Close-approach alert</td>
+<td>0 (off)</td>
+<td>0–200 km</td>
+<td>Beep + LED when a flight will pass within this distance. Once per flight.</td>
+</tr>
+<tr>
+<td>Mute beep</td>
+<td>Off</td>
+<td>on / off</td>
+<td>Silences the buzzer (including the overhead chime and tick).</td>
+</tr>
+<tr>
+<td>Soft tick while a plane is overhead</td>
+<td>On</td>
+<td>on / off</td>
+<td>Quiet tick every 5 s while a plane is within 3 km. The entry chime still plays.</td>
+</tr>
+<tr>
+<td>Status LED alerts</td>
+<td>On</td>
+<td>on / off</td>
+<td>Turns the blue LED patterns on or off.</td>
+</tr>
+<tr>
+<td>Min altitude</td>
+<td>0 ft</td>
+<td>feet</td>
+<td>Hide aircraft below this.</td>
+</tr>
+<tr>
+<td>Max altitude</td>
+<td>60,000 ft</td>
+<td>feet</td>
+<td>Hide aircraft above this.</td>
+</tr>
+<tr>
+<td>Hide aircraft on the ground</td>
+<td>On</td>
+<td>on / off</td>
+<td>Hides taxiing / parked aircraft.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="network-advanced">Network (advanced)</h2>
+<p>Leave blank to get an address automatically (DHCP). Changes apply after the
+board restarts.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Static IP</td>
+<td><em>(blank)</em></td>
+<td>e.g. <code>192.168.1.50</code>. Needs Gateway too.</td>
+</tr>
+<tr>
+<td>Gateway</td>
+<td><em>(blank)</em></td>
+<td>Usually your router, e.g. <code>192.168.1.1</code>.</td>
+</tr>
+<tr>
+<td>Subnet</td>
+<td>255.255.255.0 if blank</td>
+<td></td>
+</tr>
+<tr>
+<td>DNS</td>
+<td>Gateway if blank</td>
+<td>e.g. <code>1.1.1.1</code>.</td>
+</tr>
+</tbody>
+</table>
+<p>If a wrong static IP locks you out, <strong>keep holding the button for 5 s</strong> to reset Wi-Fi.</p>
+<h2 id="firmware">Firmware</h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Default</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Check for firmware updates</td>
+<td>On</td>
+<td>Twice a day the board checks the Flight Board website for a newer version. If there is one, a small arrow appears on the screen and a banner on the dashboard links to <a href="/flightboard/update/">Update your board</a>. It never installs anything itself. <strong>Dismiss</strong> on the banner hides the notice for that version.</td>
+</tr>
+</tbody>
+</table>
+<p>The version you're running is shown here, on the boot screen and in the
+dashboard footer.</p>
+<h2 id="opensky-account">OpenSky account</h2>
+<p>Upload the <code>credentials.json</code> from your OpenSky account to raise your daily
+limit. See <a href="/flightboard/opensky-account/">OpenSky account</a>.</p>
+<h2 id="usage">Usage</h2>
+<p>Shows the requests left today (from OpenSky) and roughly how long they'll
+last at your current poll interval.</p>
+<h2 id="saved-in-your-browser-not-on-the-board">Saved in your browser, not on the board</h2>
+<table>
+<thead>
+<tr>
+<th>Preference</th>
+<th>Where</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arrival chime on/off</td>
+<td>Top bar 🔔</td>
+</tr>
+<tr>
+<td>Ambient audio on/off</td>
+<td>Top bar ♪</td>
+</tr>
+<tr>
+<td>Traffic history (sparkline)</td>
+<td>Automatic</td>
+</tr>
+<tr>
+<td>"No credentials" reminder dismissed</td>
+<td>Automatic</td>
+</tr>
+</tbody>
+</table>
+<p>These are per browser — your phone and laptop remember their own.</p>
+<h2 id="resetting">Resetting</h2>
+<ul>
+<li><strong>Wi-Fi only:</strong> keep holding the button until the bar fills (5 s).</li>
+<li><strong>Everything else:</strong> re-enter settings, or re-install the firmware with
+"Erase all flash" enabled in the Arduino IDE.</li>
+</ul>a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$b"}}],[]],["$Lc"],"$Ld"]}],"p":"$@e","v":null,"s":"$9"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"settings","s":[]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Settings reference | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@14","v":null,"s":"$9"}},"a":"$@15","u":"$@16","b":"9i7JWpziWTe4uI01dhDTa"}
+17:I[98212,["$3","$4"],"OutletBoundary"]
+c:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
+d:["$","$L17",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+16:true
+9:300
+18:null
+9:C
+15:0
+7:"$undefined"
+14:"$undefined"
+e:"$undefined"

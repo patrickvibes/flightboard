@@ -1,0 +1,86 @@
+2:"$Sreact.fragment"
+3:"/flightboard/_next/static/chunks/06qy65nzqsmty.js"
+4:"/flightboard/_next/static/chunks/2o8lz3ifxz0tc.js"
+5:I[90880,["$3","$4"],"default"]
+6:I[34279,["$3","$4"],"default"]
+f:"ViewportBoundary"
+10:I[98212,["$3","$4"],"$f"]
+11:"MetadataBoundary"
+12:I[98212,["$3","$4"],"$11"]
+13:"$Sreact.suspense"
+8:X
+8:C
+9:X
+b:Td97,<h1 id="how-it-works">How it works</h1>
+<h2 id="the-short-version">The short version</h2>
+<p>Your Flight Board asks the OpenSky Network, every minute or so, "which
+aircraft are inside this patch of sky?" It works out how far away each one
+is and where it's heading, then shows them on its screen and on a web page
+it hosts itself.</p>
+<pre><code> Aircraft ──ADS-B radio──▶ OpenSky receivers ──▶ OpenSky Network
+                                                    │  (internet)
+                                                    ▼
+                                   Flight Board (ESP32, your Wi-Fi)
+                                      │                 │
+                                   OLED screen     Web dashboard
+                                                  (your phone / laptop)
+</code></pre>
+<h2 id="where-the-data-comes-from">Where the data comes from</h2>
+<p>Most aircraft broadcast their position, altitude and speed by radio
+(ADS-B). Volunteers around the world run receivers that pick these up and
+send them to the OpenSky Network. Flight Board reads OpenSky's live
+"state vectors" — it does <strong>not</strong> have a radio receiver of its own.</p>
+<p>Extra details are looked up only when you open a flight:</p>
+<ul>
+<li><strong>Airline</strong> — from the callsign prefix (e.g. <code>EIN</code> → Aer Lingus), built in.</li>
+<li><strong>Route</strong> (from → to) — from <a href="https://www.adsbdb.com">adsbdb.com</a>.</li>
+<li><strong>Aircraft</strong> (registration, type, operator) — from OpenSky's aircraft
+database.</li>
+</ul>
+<h2 id="your-patch-of-sky">Your patch of sky</h2>
+<p>You set a location and a <strong>scan size</strong>. The board asks OpenSky for a box
+<code>scan size</code> degrees either side of you (default 0.6° — roughly 65 km north–
+south). With <strong>radial scan</strong> on, it trims that box to a circle.</p>
+<p>Each aircraft is then:</p>
+<ol>
+<li>filtered by your altitude limits and the "hide aircraft on the ground"
+setting,</li>
+<li>given a distance from you,</li>
+<li>given a <strong>closest approach</strong> — assuming it keeps its current heading and
+speed, how many minutes until it's nearest to you, and how close it gets,</li>
+<li>sorted nearest first (up to 30 aircraft are kept).</li>
+</ol>
+<h2 id="the-two-displays">The two displays</h2>
+<ul>
+<li><strong>OLED:</strong> shows one flight at a time. Long text scrolls on the top line.</li>
+<li><strong>Web dashboard:</strong> the board serves a web page at its own address. The page
+refreshes its data from the board every 5 seconds; the board itself
+refreshes from OpenSky at the poll interval you set (default 60 s).</li>
+</ul>
+<h2 id="settings-and-storage">Settings and storage</h2>
+<p>All settings are saved in the ESP32's own flash memory and survive power
+cuts and reboots. A few browser-only preferences (sound on/off, traffic
+history) are saved in your browser instead. See <a href="/flightboard/settings/">Settings</a>.</p>
+<h2 id="limits-worth-knowing">Limits worth knowing</h2>
+<ul>
+<li>OpenSky limits how often you can ask. Without an account you get about
+400 requests a day; with a free account, about 4,000. See
+<a href="/flightboard/opensky-account/">OpenSky account</a>.</li>
+<li>Coverage depends on OpenSky's volunteer receivers nearby. Low-flying
+aircraft far from a receiver may not show up.</li>
+<li>Aircraft that don't broadcast ADS-B (some military, some light aircraft)
+won't appear.</li>
+</ul>a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","article",null,{"className":"prose prose-neutral dark:prose-invert prose-a:text-primary prose-headings:scroll-mt-20 max-w-none","dangerouslySetInnerHTML":{"__html":"$b"}}],[]],["$Lc"],"$Ld"]}],"p":"$@e","v":null,"s":"$9"}}]]
+1:[["children",{"s":{"n":"slug","t":"d","k":"how-it-works","s":[]},"h":65600,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"How it works | Flight Board"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@14","v":null,"s":"$9"}},"a":"$@15","u":"$@16","b":"9i7JWpziWTe4uI01dhDTa"}
+17:I[98212,["$3","$4"],"OutletBoundary"]
+c:["$","script","script-0",{"src":"/flightboard/_next/static/chunks/2d55t4o2bme20.js","async":true}]
+d:["$","$L17",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+16:true
+9:300
+18:null
+9:C
+15:0
+7:"$undefined"
+14:"$undefined"
+e:"$undefined"
